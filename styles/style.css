@@ -76,6 +76,7 @@ section h1{
     font-size: 35px;
     padding: 100px;
     margin: 100px;
+    color: black;
 }
 .hero{
     background-image: url(asset/img/fondo\ auto.png);
