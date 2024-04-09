@@ -79,7 +79,7 @@ section h1{
     color: black;
 }
 .hero{
-    background-image: url(asset/img/fondo\ auto.png);
+    background-image: url(/asset/img/fondo\ auto.jpg);
     margin-bottom: 30px;
     background-position: center;
     background-size: cover;
