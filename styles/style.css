@@ -73,10 +73,9 @@ section h1{
 .slogan{
     vertical-align: auto;
     text-align: center;
-    font-size: 20px;
+    font-size: 35px;
     padding: 100px;
     margin: 100px;
-    color: white;
 }
 .hero{
     background-image: url(/asset/img/fondo\ auto.png);
