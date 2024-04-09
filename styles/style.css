@@ -73,7 +73,7 @@ section h1{
 .slogan{
     vertical-align: auto;
     text-align: center;
-    font-size: 35px;
+    font-size: 28px;
     padding: 100px;
     margin: 100px;
     color: black;
@@ -223,9 +223,6 @@ footer{
     font-size: 17px;
 }
 
-.pag{
-    color: white;
-}
 footer iframe{
     width: 100%;
 }
