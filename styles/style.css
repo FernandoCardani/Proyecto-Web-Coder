@@ -78,13 +78,12 @@ section h1{
     margin: 100px;
 }
 .hero{
-    background-image: url(/asset/img/fondo\ auto.png);
+    background-image: url(asset/img/fondo\ auto.png);
     margin-bottom: 30px;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
     height: 500px;
-    
 }
 
 
