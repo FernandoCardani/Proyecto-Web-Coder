@@ -132,7 +132,10 @@ section h1{
     row-gap: 120px;
     width: 100%;
     max-width: 1152px;
-    margin: 80px
+    margin: 80px;
+}
+.galeria:hover{
+    transform: scale(1.2);
 }
 .galeria img{
     width: 250px;
@@ -183,6 +186,10 @@ h1{
     width: 400px;
     height: 700px;
     margin-bottom: 50px;
+}
+
+.preguntas{
+    margin: 20px;
 }
 
 /* Testimonios */
