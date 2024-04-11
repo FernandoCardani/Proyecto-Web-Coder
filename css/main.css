@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: Anta;
+  src: url(/asset/fonts/Anta-Regular.ttf);
+}
+@font-face {
+  font-family: Rubik;
+  src: url(/asset/fonts/Rubik-VariableFont_wght.ttf);
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: Anta, sans-serif;
+}
+
+p, a, span, li, input, button {
+  font-family: Rubik, sans-serif;
+}
+
+header {
+  background-color: rgb(101, 148, 165);
+  position: sticky;
+  top: 0;
+}
+header .menu a img {
+  width: 100px;
+}
+header nav ul {
+  font-style: none;
+  position: absolute;
+  right: 10px;
+  top: 30px;
+  font-size: 20px;
+}
+header nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+header nav ul li a {
+  text-decoration: none;
+  color: rgb(227, 226, 226);
+}
+header a:hover {
+  background-color: rgb(97, 138, 154);
+  color: black;
+}
+
+/*# sourceMappingURL=main.css.map */
