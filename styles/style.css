@@ -16,6 +16,15 @@
 }
 
 
+@media screen and (max-width:600px){
+    .hero .slogan{
+        width: 100%;
+        padding: 10px;
+        margin: 20px;
+        min-height: 25px;
+        font-size: 18px;
+}
+}
 
 h1, h2, h3 ,h4 ,h5 ,h6 {
     font-family: Anta, sans-serif;
@@ -70,14 +79,6 @@ section h1{
 
 /* Home */
 
-.slogan{
-    vertical-align: auto;
-    text-align: center;
-    font-size: 28px;
-    padding: 100px;
-    margin: 100px;
-    color: white;
-}
 .hero{
     background-image: url(/asset/img/fondo\ auto.jpg);
     margin-bottom: 30px;
@@ -85,6 +86,15 @@ section h1{
     background-size: cover;
     background-attachment: fixed;
     height: 500px;
+}
+
+.slogan{
+    vertical-align: center;
+    text-align: center;
+    font-size: 28px;
+    padding: 60px;
+    margin: 15px;
+    color: white;
 }
 
 
