@@ -34,7 +34,7 @@
 }
 
 
-@media screen and (max-width:600px){
+@media screen and (min-width:600px){
     .hero .slogan{
         width: 100%;
         min-height: 25px;
