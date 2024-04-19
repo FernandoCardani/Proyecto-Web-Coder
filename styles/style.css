@@ -15,14 +15,31 @@
     src: url(/asset/fonts/Rubik-VariableFont_wght.ttf);
 }
 
+@media screen and (max-width:600px){
+    header{
+        height: 150px ;
+        background-color: rgb(101, 148, 165);
+    }
+}
+
+@media screen and (max-width:600px){
+    .menu{
+        font-style: none;
+        position: relative;
+        padding: 92px;
+        right: 5px;
+        top: 5px;
+        font-size: 50px;
+    }
+}
+
 
 @media screen and (max-width:600px){
     .hero .slogan{
         width: 100%;
-        padding: 10px;
-        margin: 20px;
         min-height: 25px;
         font-size: 18px;
+        text-align: center;
 }
 }
 
@@ -43,7 +60,7 @@ header{
     top: 0;
 }
 
-.menu a img{
+header a img{
     width: 100px;
 }
 
