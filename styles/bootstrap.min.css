@@ -30,18 +30,18 @@
     }
 }
 
+
 @media screen and (max-width:600px){
-    h1{
-        font-size: 20px;
-        right: 30px;
+    .menu a img{
+        position: absolute;
+        right: 168px;
+        top: 0;
     }
 }
 
 @media screen and (max-width:600px){
     .menu{
-        font-style: none;
         position: absolute;
-        padding: 22px;
         right: 35%;
         top: 1px;
         font-size: 50px;
