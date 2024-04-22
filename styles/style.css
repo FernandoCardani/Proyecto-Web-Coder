@@ -80,10 +80,22 @@
 }
 
 @media screen and (max-width:600px){
-    .parrafos{
+    section p .parrafos{
+        position: relative;
+        right: 21px;
         width: 100%;
-        min-height: 25px;
-        font-size: 16px;
+        margin: 30px;
+        vertical-align: top;
+    }
+}
+
+@media screen and (max-width:600px){
+    .conocenos{
+        margin-top: 30px;
+    }
+    .dron{
+        position: relative;
+        left: 10px;
     }
 }
 
@@ -269,15 +281,15 @@ h1{
     margin-bottom: 16px;
 }
 .sueños {
-    width: 450px;
-    margin: 0px auto;
+    width: 230px;
+    margin: 0 auto;
     position: relative;
     top: 15px;
-    font-size: 19px;
+    font-size: 22px;
     margin-bottom: 16px;
 }
 
-.parrafos{
+section p .parrafos{
     display: inline-block;
     width: 1200px;
     margin: 30px;
@@ -285,8 +297,9 @@ h1{
 }
 .testimonios img{
     background-color: rgb(83, 83, 188);
-    width: 270px;
-    padding: 5px;
+    width: 290px;
+    margin-top: 30px;
+    padding: 8px;
     border: solid 2px;
 }
 
