@@ -23,6 +23,31 @@
     src: url(/asset/fonts/Rubik-VariableFont_wght.ttf);
 }
 
+@media screen and (max-width:600px){
+    header{
+        height: 152px ;
+        background-color: rgb(101, 148, 165);
+    }
+}
+
+@media screen and (max-width:600px){
+    h1{
+        font-size: 20px;
+        right: 30px;
+    }
+}
+
+@media screen and (max-width:600px){
+    .menu{
+        font-style: none;
+        position: absolute;
+        padding: 22px;
+        right: 35%;
+        top: 1px;
+        font-size: 50px;
+    }
+}
+
 
 
 h1, h2, h3 ,h4 ,h5 ,h6 {
