@@ -93,9 +93,14 @@
     .conocenos{
         margin-top: 30px;
     }
+    .pdenosotros{
+        position: relative;
+        right: 21px;
+        width: 98%;
+    }
     .dron{
         position: relative;
-        left: 10px;
+        left: 8px;
     }
 }
 
