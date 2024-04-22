@@ -96,7 +96,7 @@
     .pdenosotros{
         position: relative;
         right: 21px;
-        width: 98%;
+        width: 80%;
     }
     .dron{
         position: relative;
@@ -167,6 +167,7 @@ section h1{
 }
 
 .slogan{
+    background-color: rgba(42, 36, 36, 0.371);
     vertical-align: center;
     text-align: center;
     font-size: 28px;
