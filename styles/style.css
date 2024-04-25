@@ -92,8 +92,10 @@
 @media screen and (max-width:600px){
     section h1.conocenos_h1{
         position: relative;
-        left: 60px;
+        right: 160px;
         top: 10px;
+        margin: 0;
+        padding: 0;
     }
     section h2{
         position: relative;
@@ -103,12 +105,22 @@
     }
     .pdenosotros{
         position: relative;
-        right: 21px;
+        left: 6px;
         width: 35%;
     }
     .dron{
         position: relative;
         left: 4px;
+    }
+    .nosotros{
+        position: relative;
+        left: 8px;
+        top: 20px;
+    }
+    .sobre{
+        position: relative;
+        left: 6px;
+        top: 20px;  
     }
 }
 
@@ -260,7 +272,6 @@ h1{
 }
 h2{
     padding: 25px;
-    margin: 150px;
 }
 ul li{
     margin-bottom: 16px;
@@ -270,25 +281,36 @@ ul li{
 
 .conocenos_h1{
     position: relative;
-    right: 30px;
-    top: 300px;
+    right: 840px;
+    top: 3px;
 }
 .nosotros{
-    display: inline-block;
-    position: relative;
-    top: 1px;
-    width: 35%;
-    padding: 2px;
-    vertical-align: top;
-}
-.pdenosotros{
     display: inline-block;
     width: 35%;
     margin: 10px;
     margin-bottom: 18px;
     vertical-align: top;
+    border: dashed 2px;
 }
 
+.nosotros:hover{
+    transform: scale(1.2);
+}
+.sobre{
+    position: relative;
+    right: 0;
+}
+.pdenosotros{
+    display: inline-block;
+    width: 35%;
+    margin: 10px;
+    margin-top: 28px;
+    vertical-align: top;
+    border: dashed 2px;
+}
+.pdenosotros:hover{
+    transform: scale(1.2);
+}
 .dron{
     width: 400px;
     height: 500px;
