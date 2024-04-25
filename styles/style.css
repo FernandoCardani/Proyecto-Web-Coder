@@ -232,7 +232,7 @@ section h1{
     border-radius: 20px;
 }
 
-section h2{
+.destacados_h2{
     margin: 40px;
     margin-top: 150px;
     margin-bottom: 60px;
@@ -260,20 +260,28 @@ ul li{
 
 /* Nosotros */
 
-h1{
-    margin-bottom: 40px;
+.conocenos_h1{
+    top: 300px;
+}
+.nosotros{
+    display: inline-block;
+    width: 35%;
+    margin: 10px;
+    padding: 2px;
+    margin-bottom: 18px;
+    vertical-align: top;
 }
 .pdenosotros{
     display: inline-block;
-    width: 500px;
-    margin: 30px;
+    width: 35%;
+    margin: 10px;
     margin-bottom: 18px;
     vertical-align: top;
 }
 
 .dron{
     width: 400px;
-    height: 700px;
+    height: 500px;
     margin-bottom: 50px;
 }
 
