@@ -96,11 +96,11 @@
     .pdenosotros{
         position: relative;
         right: 21px;
-        width: 80%;
+        width: 70%;
     }
     .dron{
         position: relative;
-        left: 8px;
+        left: 4px;
     }
 }
 
@@ -171,7 +171,7 @@ section h1{
     vertical-align: center;
     text-align: center;
     font-size: 28px;
-    padding: 60px;
+    padding: 36px;
     margin: 15px;
     color: white;
 }
